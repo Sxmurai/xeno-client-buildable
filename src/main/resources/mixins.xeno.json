@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.wolfsurge.mixin.mixins",
+  "refmap": "mixins.xeno.refmap.json",
+  "mixins": [
+    "accessor.IShaderGroup",
+    "MixinGuiMainMenu",
+    "MixinRenderLivingBase",
+    "MixinTileEntityRendererDispatcher",
+    "MixinEntityPlayerSP",
+    "MixinNetworkManager",
+    "MixinEntityPlayer",
+    "MixinRenderEntityItem",
+    "MixinGuiIngame",
+    "MixinRenderPlayer",
+    "MixinGuiMultiplayer",
+    "MixinMinecraft",
+    "MixinGuiConnecting",
+    "MixinEntity",
+    "MixinEntityRenderer",
+    "MixinGuiScreen",
+    "MixinGuiNewChat",
+    "MixinRender",
+    "MixinItemRenderer"
+  ]
+}
